@@ -1,0 +1,47 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #4A96EB;
+}
+
+.grid {
+    border-radius: 8px;
+    background-color: #fff;
+    margin: auto;
+    width: 396px;
+    height: 396px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+}
+
+.mole {
+    background-image: url('./image/mole.jpg');
+    background-size: cover;
+}
+
+@media screen and (max-width:470px) {
+    .grid {
+        width: 306px;
+        height: 306px;
+    }
+    .square {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .grid {
+        width: 246px;
+        height: 246px;
+    }
+    .square {
+        width: 80px;
+        height: 80px;
+    }
+}
